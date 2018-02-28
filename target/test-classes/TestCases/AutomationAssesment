@@ -1,0 +1,18 @@
+1. If you choose to use a tool  or language other than recommended, briefly explain why?
+I choose Selenium tools to automate UI and Java language to set up the test and object classes.
+I have been using Java from last 3 years, so that is why I choose Java. But I am fine by Python and Ruby
+and i believe I can pick up these language as all of them are object oriented languages.
+
+2. How did you go  about  locating  the elements  for your  tests?
+I usually use xpath to locate elements. In shipt.com i observed that most of the elements have specific 
+text, so i used contains method to write Xpath.
+
+3. What do you believe are the  most common  causes of instability  in UI automation?
+I believe dynamic tags are the most common causes of instability in UI automation, and to over come the
+instability I also look for unique tag names and attributes locate elements.
+
+4. How do you make your  tests Consistent and  easy to debug?
+For Consistent tests, I will first make use that I am using static elements to locate elements.
+I will use comments to make methods more readable so that if someone else is looking into my scripts
+they are easily read my test scripts and test methods.
+Proper framework needed to make test scripts maintainable. I use PAge object methods to set up test framework .

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67184" started-at="2018-02-28T07:35:33Z" finished-at="2018-02-28T07:36:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67184" started-at="2018-02-28T07:35:33Z" finished-at="2018-02-28T07:36:40Z">
+      <class name="Project.assign.LoginTest">
+        <test-method status="PASS" signature="invokeChrome()[pri:0, instance:Project.assign.LoginTest@46d56d67]" name="invokeChrome" is-config="true" duration-ms="13272" started-at="2018-02-27T23:35:33Z" finished-at="2018-02-27T23:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeChrome -->
+        <test-method status="PASS" signature="invalidPassword()[pri:1, instance:Project.assign.LoginTest@46d56d67]" name="invalidPassword" duration-ms="7161" started-at="2018-02-27T23:35:46Z" finished-at="2018-02-27T23:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:Project.assign.LoginTest@46d56d67]" name="closeChrome" is-config="true" duration-ms="931" started-at="2018-02-27T23:35:53Z" finished-at="2018-02-27T23:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+        <test-method status="PASS" signature="invokeChrome()[pri:0, instance:Project.assign.LoginTest@46d56d67]" name="invokeChrome" is-config="true" duration-ms="12692" started-at="2018-02-27T23:35:54Z" finished-at="2018-02-27T23:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeChrome -->
+        <test-method status="PASS" signature="emptyEmailaddress()[pri:2, instance:Project.assign.LoginTest@46d56d67]" name="emptyEmailaddress" duration-ms="7009" started-at="2018-02-27T23:36:07Z" finished-at="2018-02-27T23:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailaddress -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:Project.assign.LoginTest@46d56d67]" name="closeChrome" is-config="true" duration-ms="892" started-at="2018-02-27T23:36:14Z" finished-at="2018-02-27T23:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+        <test-method status="PASS" signature="invokeChrome()[pri:0, instance:Project.assign.LoginTest@46d56d67]" name="invokeChrome" is-config="true" duration-ms="16972" started-at="2018-02-27T23:36:15Z" finished-at="2018-02-27T23:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeChrome -->
+        <test-method status="PASS" signature="emptySpacePassword()[pri:3, instance:Project.assign.LoginTest@46d56d67]" name="emptySpacePassword" duration-ms="7305" started-at="2018-02-27T23:36:32Z" finished-at="2018-02-27T23:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptySpacePassword -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:Project.assign.LoginTest@46d56d67]" name="closeChrome" is-config="true" duration-ms="927" started-at="2018-02-27T23:36:39Z" finished-at="2018-02-27T23:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- Project.assign.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

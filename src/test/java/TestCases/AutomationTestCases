@@ -1,0 +1,26 @@
+Test Case 1: Automate this test case. (see LoginTest.java class).
+Description: Write a test case to verify the negative scenarios on login functionality.
+ 
+1. Verify the links "GET PAID TO SHOP", "HELP", "GIFT", "LOG ON", AND "SIGN UP"
+2. Clink on LOG ON button
+3. Verify the LOG IN Button is available
+4. Send invalid email and password 
+5. click on LOG IN button
+4. system should display alert "Invalid Credentials".
+
+Also send valid email and invalid password system should display alert "Invalid Credentials".
+
+
+Test Case2: see TestLinks.Java class
+
+Description: write automation test case to check if all the links on shipt.com return status 200 or not.
+
+Create linkVerification.java class to write your code in src/main/java folder
+create TestLink.java class and call the TestNG Test annotation to run the methods created in linkVerification.java class
+
+1. Navigate to www.shipt.com
+2. Invoke the Chrome WebDriver
+3. Create a  List of all elements where tag name is a and get the size.
+4. Create a connection using http client to check if all links return the status code of 200 or not.
+
+

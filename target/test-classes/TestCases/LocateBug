@@ -1,0 +1,18 @@
+Description: Navigate to www.shipt.com and click on Help button and make sure Content is available when
+user click on "What is Shipt" link.
+
+Test Steps:
+1. Navigate to www.shipt.com
+2. Click on Help link located on top left hand side.
+3. Click on "How Shipt Works"
+4. Click on "+" icon to expand "What is Shipt"
+
+Actual Result: When user click on "+" icon noting happens. Link is only expandable when user click on 
+"What is Shipt?" text.
+
+This seems like a cosmetic bug and does not effect the usability of the application, but it would be nice to
+have a fix in place, so that user than expand the link by clink on "+" icon also.
+  
+  Priority of the Bug: 4 : Even it does not effect the workflow of the application but it would be nice to have
+  a feature where user can expand the link via clicking on "+" icon.
+  
