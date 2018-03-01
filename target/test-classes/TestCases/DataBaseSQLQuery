@@ -1,1 +1,14 @@
-how would your define the relationships between each table?
+How would your define the relationships between each table?
+Orders table has 1 to many relationship with Customers and Shoppers, as Orders table has Customer_id
+and Shopper_id as well id columns.
+
+Write a SQL query which would return the ID and store of an order tied to a specific Customer 
+and shopper?
+
+Select Orders.id, Orders.store
+From Orders
+JOIN Customers ON Orders.customer_id=Customer.id
+JOIN Shoppers ON Orders.shopper_id=Shoppers.id
+Where First_Name=''
+And Last_name=''
+group by Orders.id, Orders.store;
